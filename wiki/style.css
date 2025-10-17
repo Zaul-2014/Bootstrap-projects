@@ -1,0 +1,119 @@
+:root {
+  --bg-color: #00ffb7;
+}
+body {
+  background: #00c57aa5;
+}
+#nav {
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  background: #00ffb7;
+  border: 1px solid #01e7a6;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: max-content;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.216);
+  position: fixed;
+}
+#nav:hover {
+  transition: all 0.5s ease;
+  display: flex;
+  justify-content: space-around;
+  background: #00ffb7;
+  border: 1px solid #01e7a6;
+  padding: 10px;
+  border-radius: 10px;
+  min-width: fit-content;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.216);
+  position: fixed;
+  max-width: max-content;
+}
+#btn-Home {
+  transition: all 0.5s ease;
+  background: var(--bg-color);
+  border-radius: 5px;
+  border: 1px solid rgb(7, 191, 136);
+  padding: 10px;
+  margin: 5px;
+}
+#contact-btn {
+  transition: all 0.5s ease;
+  background: var(--bg-color);
+  border-radius: 5px;
+  border: 1px solid rgb(7, 191, 136);
+  padding: 10px;
+  margin: 5px;
+}
+#forums-btn {
+  transition: all 0.5s ease;
+  background: var(--bg-color);
+  border-radius: 5px;
+  border: 1px solid rgb(7, 191, 136);
+  padding: 10px;
+  margin: 5px;
+}
+#Article-btn {
+  transition: all 0.5s ease;
+  background: var(--bg-color);
+  border-radius: 5px;
+  border: 1px solid rgb(7, 191, 136);
+  padding: 10px;
+  margin: 5px;
+}
+#btn-Home:hover {
+  transition: all 0.5s ease;
+  background: var(--bg-color);
+  border-radius: 10px;
+  border: 1px solid rgb(7, 191, 136);
+  padding: 10px;
+  margin: 5px;
+}
+#contact-btn:hover {
+  transition: all 0.5s ease;
+  background: var(--bg-color);
+  border-radius: 10px;
+  border: 1px solid rgb(7, 191, 136);
+  padding: 10px;
+  margin: 5px;
+}
+#forums-btn:hover {
+  transition: all 0.5s ease;
+  background: var(--bg-color);
+  border-radius: 10px;
+  border: 1px solid rgb(7, 191, 136);
+  padding: 10px;
+  margin: 5px;
+}
+#Article-btn:hover {
+  transition: all 0.5s ease;
+  background: var(--bg-color);
+  border-radius: 10px;
+  border: 1px solid rgb(7, 191, 136);
+  padding: 10px;
+  margin: 5px;
+}
+#coder-img {
+  margin: 50px;
+  max-width: 500px;
+  border: 5px solid #0eb082;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.388);
+  border-radius: 10px;
+}
+#text {
+  display: flex;
+  justify-content: flex-start;
+}
+#aboutxt {
+  display: flex;
+  justify-content: flex-start;
+}
+#carouselExample {
+  position: relative;
+}
+.ad-video {
+  display: flex;
+  margin-top: 10px;
+  width:500px;
+  height: 300px;
+}
