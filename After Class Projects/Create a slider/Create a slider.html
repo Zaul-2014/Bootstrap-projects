@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+</head>
+<body>
+    <h1>Slider Example</h1>
+    <p>Use the slider to select a value:</p>
+    <input type="range" min="0" max="100" value="50" class="slider" id="myRange">
+    <p>Value: <span id="sliderValue">50</span></p>
+
+    <script>
+        const slider = document.getElementById("myRange");
+        const output = document.getElementById("sliderValue");
+
+        // Update the current slider value (each time you drag the slider handle)
+        slider.oninput = function() {
+            output.innerHTML = this.value;
+        }
+    </script>
+    
+    
+</body>
+
+</html>
